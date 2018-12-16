@@ -2,7 +2,10 @@
 
 Genetic algorithm to guess a word
 
+### Preview
 
+![imageOne](preview/preview1.png)
+![imageOne](preview/preview2.png)
 
 ### How to run
 

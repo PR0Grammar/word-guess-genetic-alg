@@ -96,6 +96,7 @@ def main():
         simulation.get_population_fitness()
         print(simulation.get_fittest_gene())
     
+    print('______________________________________________________________')
     print('GOAL: ' + simulation.goal)
     print('GENERATION COUNT: ' + str(simulation.generations))
     print('TOTAL GENES CREATED: ' + str(simulation.get_total_gene_count()))
