@@ -8,7 +8,6 @@ class NaturalSelect:
         self.highest_fitness = 0
         self.generations = 0
         self.fittest_gene = None
-
         self.get_random_goal()
         self.get_init_population()
         self.get_population_fitness()
@@ -70,8 +69,6 @@ class NaturalSelect:
 
         self.population = childs
         self.generations += 1
-        
-
 
     def fittest_found(self):
         return self.highest_fitness == 1.0
